@@ -1,0 +1,8 @@
+prefix=/home/cody/catkin_ws/install
+
+Name: cody_test
+Description: Description of cody_test
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

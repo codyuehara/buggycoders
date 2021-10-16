@@ -1,0 +1,8 @@
+prefix=/home/cody/catkin_ws/devel
+
+Name: cody_lab5
+Description: Description of cody_lab5
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

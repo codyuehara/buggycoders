@@ -1,0 +1,8 @@
+prefix=/home/cody/catkin_ws/devel
+
+Name: cody_scanmatch
+Description: Description of cody_scanmatch
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp rospy std_msgs

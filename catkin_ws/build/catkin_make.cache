@@ -1,0 +1,2 @@
+cody_reactive:cody_scanmatch:cody_wallfollow:f1tenth_labs/lab4/code:f1tenth_labs/lab6/code:f1tenth_labs/lab7/code:f1tenth_labs/waypoint_logger:f1tenth_simulator:safety
+-DCATKIN_DEVEL_PREFIX=/home/cody/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cody/catkin_ws/install -G Unix Makefiles
