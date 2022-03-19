@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/serial_example.dir/examples/serial_example.cc.o"
-  "/home/buggycoders/f1tenth_ws/devel/lib/serial/serial_example.pdb"
-  "/home/buggycoders/f1tenth_ws/devel/lib/serial/serial_example"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/serial/serial_example.pdb"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/serial/serial_example"
 )
 
 # Per-language clean rules from dependency scanning.

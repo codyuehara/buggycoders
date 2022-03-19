@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_ackermann/CMakeFiles/ackermann_to_vesc_node.dir/src/ackermann_to_vesc.cpp.o"
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc_node.cpp" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_ackermann/CMakeFiles/ackermann_to_vesc_node.dir/src/ackermann_to_vesc_node.cpp.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc.cpp" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_ackermann/CMakeFiles/ackermann_to_vesc_node.dir/src/ackermann_to_vesc.cpp.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/src/ackermann_to_vesc_node.cpp" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_ackermann/CMakeFiles/ackermann_to_vesc_node.dir/src/ackermann_to_vesc_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,8 +18,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include"
-  "/home/buggycoders/f1tenth_ws/devel/include"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_ackermann/include"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

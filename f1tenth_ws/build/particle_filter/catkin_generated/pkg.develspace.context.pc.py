@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "message_runtime;rospy;sensor_msgs;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "particle_filter"
-PROJECT_SPACE_DIR = "/home/buggycoders/f1tenth_ws/devel"
+PROJECT_SPACE_DIR = "/home/buggycoders/buggycoders/f1tenth_ws/devel"
 PROJECT_VERSION = "0.1.0"

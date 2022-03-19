@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/impl/list_ports/list_ports_linux.cc" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/impl/unix.cc" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/impl/unix.cc.o"
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/serial.cc" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/serial.cc.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/impl/list_ports/list_ports_linux.cc" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/impl/unix.cc" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/impl/unix.cc.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/src/serial.cc" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/CMakeFiles/serial.dir/src/serial.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include"
   )
 
 # Targets to which this target links.

@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libhokuyo.dir/src/hokuyo.cpp.o"
-  "/home/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.pdb"
-  "/home/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.so"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.pdb"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.so"
 )
 
 # Per-language clean rules from dependency scanning.

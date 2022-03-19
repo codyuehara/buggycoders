@@ -1,8 +1,8 @@
-# Install script for directory: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc
+# Install script for directory: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/f1tenth_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/buggycoders/f1tenth_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vesc" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/vesc" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc/package.xml")
 endif()
 

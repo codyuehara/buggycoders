@@ -1,4 +1,4 @@
-prefix=/home/buggycoders/f1tenth_ws/devel
+prefix=/home/buggycoders/buggycoders/f1tenth_ws/devel
 
 Name: joy
 Description: Description of joy

@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ackermann_cmd_mux_gencfg"
-  "/home/buggycoders/f1tenth_ws/devel/include/ackermann_cmd_mux/reloadConfig.h"
-  "/home/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig.dox"
-  "/home/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig-usage.dox"
-  "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_cmd_mux/cfg/reloadConfig.py"
-  "/home/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig.wikidoc"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/include/ackermann_cmd_mux/reloadConfig.h"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig.dox"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig-usage.dox"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_cmd_mux/cfg/reloadConfig.py"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/ackermann_cmd_mux/docs/reloadConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/buggycoders/f1tenth_ws/src
+CMAKE_SOURCE_DIR = /home/buggycoders/buggycoders/f1tenth_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/buggycoders/f1tenth_ws/build
+CMAKE_BINARY_DIR = /home/buggycoders/buggycoders/f1tenth_ws/build
 
 # Utility rule file for vesc_msgs_gencpp.
 
@@ -63,10 +63,10 @@ f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/build: vesc_msgs_g
 .PHONY : f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/build
 
 f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/clean:
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_gencpp.dir/cmake_clean.cmake
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs && $(CMAKE_COMMAND) -P CMakeFiles/vesc_msgs_gencpp.dir/cmake_clean.cmake
 .PHONY : f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/clean
 
 f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/depend:
-	cd /home/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/f1tenth_ws/src /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs /home/buggycoders/f1tenth_ws/build /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/buggycoders/f1tenth_ws/src /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_msgs /home/buggycoders/buggycoders/f1tenth_ws/build /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : f1tenth_system/vesc/vesc_msgs/CMakeFiles/vesc_msgs_gencpp.dir/depend
 

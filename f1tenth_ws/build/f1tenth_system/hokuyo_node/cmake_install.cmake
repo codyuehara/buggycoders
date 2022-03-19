@@ -1,8 +1,8 @@
-# Install script for directory: /home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node
+# Install script for directory: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/f1tenth_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/buggycoders/f1tenth_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,34 +38,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/devel/include/hokuyo_node/HokuyoConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/include/hokuyo_node/HokuyoConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/cfg")
+  execute_process(COMMAND "/usr/bin/python2" -m compileall "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE DIRECTORY FILES "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/hokuyo_node" TYPE DIRECTORY FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/hokuyo_node/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_node.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_node.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node/cmake" TYPE FILE FILES
-    "/home/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig.cmake"
-    "/home/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig-version.cmake"
+    "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig.cmake"
+    "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/hokuyo_node/catkin_generated/installspace/hokuyo_nodeConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/liblibhokuyo.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liblibhokuyo.so")
     file(RPATH_CHANGE
@@ -89,7 +89,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE DIRECTORY FILES "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/include/hokuyo_node/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/hokuyo_node" TYPE DIRECTORY FILES "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/include/hokuyo_node/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -99,12 +99,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node"
-         OLD_RPATH "/home/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/hokuyo_node")
@@ -119,12 +119,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID"
-         OLD_RPATH "/home/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getID")
@@ -139,12 +139,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getFirmwareVersion")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node" TYPE EXECUTABLE FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getFirmwareVersion")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion"
-         OLD_RPATH "/home/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
+         OLD_RPATH "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib:/opt/ros/melodic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hokuyo_node/getFirmwareVersion")
@@ -154,12 +154,12 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hokuyo_node" TYPE FILE FILES
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/test/TODO"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/test/unplug_test.launch"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/COPYING.lib"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test.launch"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test.vcg"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test_intensity.launch"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/test/TODO"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/test/unplug_test.launch"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/COPYING.lib"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test.launch"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test.vcg"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/hokuyo_node/hokuyo_test_intensity.launch"
     )
 endif()
 

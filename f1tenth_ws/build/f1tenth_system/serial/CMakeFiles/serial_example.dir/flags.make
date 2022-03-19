@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include 
+CXX_INCLUDES = -I/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include 
 

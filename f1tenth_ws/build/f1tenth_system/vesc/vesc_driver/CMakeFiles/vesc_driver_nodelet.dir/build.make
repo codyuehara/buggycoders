@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/buggycoders/f1tenth_ws/src
+CMAKE_SOURCE_DIR = /home/buggycoders/buggycoders/f1tenth_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/buggycoders/f1tenth_ws/build
+CMAKE_BINARY_DIR = /home/buggycoders/buggycoders/f1tenth_ws/build
 
 # Include any dependencies generated for this target.
 include f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/depend.make
@@ -58,17 +58,17 @@ include f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/progr
 include f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o -c /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o -c /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.i"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.i
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.i
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver_nodelet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.s
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o.requires:
 
@@ -82,17 +82,17 @@ f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driv
 
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o -c /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o -c /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.i
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_driver.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.s
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o.requires:
 
@@ -106,17 +106,17 @@ f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driv
 
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o -c /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o -c /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.i
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_interface.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.s
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o.requires:
 
@@ -130,17 +130,17 @@ f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_inte
 
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o -c /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o -c /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.i
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.s
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o.requires:
 
@@ -154,17 +154,17 @@ f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_pack
 
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/flags.make
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o -c /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o -c /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp > CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.i
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/src/vesc_packet_factory.cpp -o CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.s
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o.requires:
 
@@ -188,49 +188,49 @@ vesc_driver_nodelet_OBJECTS = \
 # External object files for target vesc_driver_nodelet
 vesc_driver_nodelet_EXTERNAL_OBJECTS =
 
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/build.make
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libnodeletlib.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libbondcpp.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libuuid.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libclass_loader.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/libPocoFoundation.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libdl.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroslib.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librospack.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpython2.7.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_program_options.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroscpp.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_regex.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librostime.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libcpp_common.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_system.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /home/buggycoders/f1tenth_ws/devel/lib/libserial.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/librt.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpthread.so
-/home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so"
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vesc_driver_nodelet.dir/link.txt --verbose=$(VERBOSE)
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver_nodelet.cpp.o
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_driver.cpp.o
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_interface.cpp.o
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet.cpp.o
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/src/vesc_packet_factory.cpp.o
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/build.make
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libnodeletlib.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libbondcpp.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libuuid.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libclass_loader.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/libPocoFoundation.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libdl.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroslib.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librospack.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpython2.7.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_program_options.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libtinyxml2.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroscpp.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_filesystem.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/liblog4cxx.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_regex.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/librostime.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /opt/ros/melodic/lib/libcpp_common.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_system.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_thread.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_chrono.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_date_time.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libboost_atomic.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libconsole_bridge.so.0.4
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libserial.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/librt.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: /usr/lib/aarch64-linux-gnu/libpthread.so
+/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so: f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/buggycoders/buggycoders/f1tenth_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library /home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so"
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/vesc_driver_nodelet.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/build: /home/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so
+f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/build: /home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libvesc_driver_nodelet.so
 
 .PHONY : f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/build
 
@@ -243,10 +243,10 @@ f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/requires: f1t
 .PHONY : f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/requires
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/clean:
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && $(CMAKE_COMMAND) -P CMakeFiles/vesc_driver_nodelet.dir/cmake_clean.cmake
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver && $(CMAKE_COMMAND) -P CMakeFiles/vesc_driver_nodelet.dir/cmake_clean.cmake
 .PHONY : f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/clean
 
 f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/depend:
-	cd /home/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/f1tenth_ws/src /home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver /home/buggycoders/f1tenth_ws/build /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver /home/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/buggycoders/f1tenth_ws/src /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver /home/buggycoders/buggycoders/f1tenth_ws/build /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : f1tenth_system/vesc/vesc_driver/CMakeFiles/vesc_driver_nodelet.dir/depend
 

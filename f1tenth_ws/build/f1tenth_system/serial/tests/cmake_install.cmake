@@ -1,8 +1,8 @@
-# Install script for directory: /home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/tests
+# Install script for directory: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/f1tenth_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/buggycoders/f1tenth_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

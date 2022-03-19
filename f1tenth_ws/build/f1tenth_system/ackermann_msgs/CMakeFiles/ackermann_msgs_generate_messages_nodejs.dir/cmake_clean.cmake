@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ackermann_msgs_generate_messages_nodejs"
-  "/home/buggycoders/f1tenth_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js"
-  "/home/buggycoders/f1tenth_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDrive.js"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDriveStamped.js"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/gennodejs/ros/ackermann_msgs/msg/AckermannDrive.js"
 )
 
 # Per-language clean rules from dependency scanning.

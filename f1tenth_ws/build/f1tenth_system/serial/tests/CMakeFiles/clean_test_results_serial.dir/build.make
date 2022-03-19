@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/buggycoders/f1tenth_ws/src
+CMAKE_SOURCE_DIR = /home/buggycoders/buggycoders/f1tenth_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/buggycoders/f1tenth_ws/build
+CMAKE_BINARY_DIR = /home/buggycoders/buggycoders/f1tenth_ws/build
 
 # Utility rule file for clean_test_results_serial.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/buggycoders/f1tenth_ws/build
 include f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/progress.make
 
 f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial:
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/buggycoders/f1tenth_ws/build/test_results/serial
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/buggycoders/buggycoders/f1tenth_ws/build/test_results/serial
 
 clean_test_results_serial: f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial
 clean_test_results_serial: f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/build.make
@@ -67,10 +67,10 @@ f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/build: clea
 .PHONY : f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/build
 
 f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/clean:
-	cd /home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_serial.dir/cmake_clean.cmake
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_serial.dir/cmake_clean.cmake
 .PHONY : f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/clean
 
 f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/depend:
-	cd /home/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/f1tenth_ws/src /home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/tests /home/buggycoders/f1tenth_ws/build /home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests /home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/buggycoders/buggycoders/f1tenth_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/buggycoders/buggycoders/f1tenth_ws/src /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/tests /home/buggycoders/buggycoders/f1tenth_ws/build /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests /home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : f1tenth_system/serial/tests/CMakeFiles/clean_test_results_serial.dir/depend
 

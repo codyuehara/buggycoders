@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "${prefix}/include;/usr/include".split(';') if
 PROJECT_CATKIN_DEPENDS = "message_runtime;std_msgs".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "ackermann_msgs"
-PROJECT_SPACE_DIR = "/home/buggycoders/f1tenth_ws/install"
+PROJECT_SPACE_DIR = "/home/buggycoders/buggycoders/f1tenth_ws/install"
 PROJECT_VERSION = "1.0.1"

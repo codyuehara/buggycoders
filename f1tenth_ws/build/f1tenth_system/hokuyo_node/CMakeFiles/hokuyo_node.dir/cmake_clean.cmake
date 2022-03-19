@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hokuyo_node.dir/src/hokuyo_node.cpp.o"
-  "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node.pdb"
-  "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node.pdb"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/hokuyo_node"
 )
 
 # Per-language clean rules from dependency scanning.

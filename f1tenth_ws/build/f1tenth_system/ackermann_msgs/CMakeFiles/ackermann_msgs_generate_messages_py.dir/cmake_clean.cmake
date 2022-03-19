@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ackermann_msgs_generate_messages_py"
-  "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDriveStamped.py"
-  "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDrive.py"
-  "/home/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/__init__.py"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDriveStamped.py"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/_AckermannDrive.py"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/python2.7/dist-packages/ackermann_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

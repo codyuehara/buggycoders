@@ -1,0 +1,8 @@
+prefix=/home/buggycoders/buggycoders/f1tenth_ws/devel
+
+Name: cody_wallfollow
+Description: Description of cody_wallfollow
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

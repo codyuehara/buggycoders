@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"vesc_driver\" -Dvesc_driver_nodelet_EXPORTS
 
-CXX_INCLUDES = -I/home/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/include -I/home/buggycoders/f1tenth_ws/devel/include -I/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/vesc/vesc_driver/include -I/home/buggycoders/buggycoders/f1tenth_ws/devel/include -I/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include -I/opt/ros/melodic/include -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

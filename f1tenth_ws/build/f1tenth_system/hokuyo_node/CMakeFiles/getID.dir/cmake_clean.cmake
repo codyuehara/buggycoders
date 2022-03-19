@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/getID.dir/src/getID.cpp.o"
-  "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID.pdb"
-  "/home/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID.pdb"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/hokuyo_node/getID"
 )
 
 # Per-language clean rules from dependency scanning.

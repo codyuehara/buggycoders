@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/joystick_drivers/joy/src/joy_node.cpp" "/home/buggycoders/f1tenth_ws/build/f1tenth_system/joystick_drivers/joy/CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/joystick_drivers/joy/src/joy_node.cpp" "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/joystick_drivers/joy/CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/buggycoders/f1tenth_ws/src/f1tenth_system/joystick_drivers/joy/msg/cpp"
+  "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/joystick_drivers/joy/msg/cpp"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

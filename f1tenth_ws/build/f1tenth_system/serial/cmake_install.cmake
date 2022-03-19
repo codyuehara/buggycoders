@@ -1,8 +1,8 @@
-# Install script for directory: /home/buggycoders/f1tenth_ws/src/f1tenth_system/serial
+# Install script for directory: /home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/f1tenth_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/buggycoders/buggycoders/f1tenth_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,18 +38,18 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serial.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial/cmake" TYPE FILE FILES
-    "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serialConfig.cmake"
-    "/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serialConfig-version.cmake"
+    "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serialConfig.cmake"
+    "/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/catkin_generated/installspace/serialConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial" TYPE FILE FILES "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial" TYPE FILE FILES "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libserial.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/buggycoders/f1tenth_ws/devel/lib/libserial.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/libserial.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libserial.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libserial.so")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -70,14 +70,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/serial" TYPE FILE FILES
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include/serial/serial.h"
-    "/home/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include/serial/v8stdint.h"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include/serial/serial.h"
+    "/home/buggycoders/buggycoders/f1tenth_ws/src/f1tenth_system/serial/include/serial/v8stdint.h"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests/cmake_install.cmake")
+  include("/home/buggycoders/buggycoders/f1tenth_ws/build/f1tenth_system/serial/tests/cmake_install.cmake")
 
 endif()
 

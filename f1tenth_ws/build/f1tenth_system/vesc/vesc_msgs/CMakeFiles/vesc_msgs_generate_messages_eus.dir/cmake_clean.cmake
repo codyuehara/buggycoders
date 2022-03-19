@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vesc_msgs_generate_messages_eus"
-  "/home/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/msg/VescState.l"
-  "/home/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/msg/VescStateStamped.l"
-  "/home/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/manifest.l"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/msg/VescStateStamped.l"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/msg/VescState.l"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/share/roseus/ros/vesc_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

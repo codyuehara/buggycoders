@@ -1,0 +1,8 @@
+prefix=/home/buggycoders/buggycoders/f1tenth_ws/devel
+
+Name: cody_reactive
+Description: Description of cody_reactive
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

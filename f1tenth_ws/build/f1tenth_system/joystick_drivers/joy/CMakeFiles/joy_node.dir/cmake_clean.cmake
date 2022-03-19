@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/joy_node.dir/src/joy_node.cpp.o"
-  "/home/buggycoders/f1tenth_ws/devel/lib/joy/joy_node.pdb"
-  "/home/buggycoders/f1tenth_ws/devel/lib/joy/joy_node"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/joy/joy_node.pdb"
+  "/home/buggycoders/buggycoders/f1tenth_ws/devel/lib/joy/joy_node"
 )
 
 # Per-language clean rules from dependency scanning.
