@@ -79,7 +79,7 @@ class WallFollow:
         drive_msg.header.frame_id = "laser"
 	drive_msg.drive.steering_angle = angle
 	#positive angle is to the left
-	drive_msg.drive.speed = 6 - (abs(angle) / 2.35619 * 5)
+	drive_msg.drive.speed = 1 #6 - (abs(angle) / 2.35619 * 5)
 	#if angle > -10 and angle < 10:
 	#	drive_msg.drive.speed = 6.0 #1.5
 		#rospy.loginfo("drive straight")
